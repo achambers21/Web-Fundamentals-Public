@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* styles to apply to body */
+header {
+    background-color: rgb(44, 20, 199);
+    min-height: 25px;
+    color: white;
+    padding: .5rem 0;
+}
+
+
+.container {
+    /*background-color: rgb(15, 153, 72);*/
+    width: 70%;
+    min-height: 25px;
+    margin: 0 auto;
+}
+
+main {
+    /*background-color: rgb(207, 40, 212);*/
+    min-height: 200px;
+    min-width: 600px;
+}
+
+aside {
+    /*background-color: darkcyan;*/
+    min-height: 200px;
+    min-width: 400px;
+}
+
+.flexed-align-items-flex-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.flexed-align-items-flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.mb {
+    margin-bottom: 1.5rem;
+}
+
+header ul {
+    list-style: none;
+}
+
+.menu-left {
+    /*background-color: darkslategrey;*/
+    min-height: 25px;
+}
+
+.card {
+    background-color: rgba(0, 206, 209, 0.521);
+    min-height: 300px;
+    margin-bottom: 2.5rem;
+    flex: 2;
+    min-width: 600px;
+}
+
+.education {
+    background-color: rgb(93, 81, 173);
+    min-height: 300px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    flex: 2;
+
+}
+
+.requests {
+    background-color: rgb(41, 94, 173);
+    min-height: 200px;
+    margin-bottom: 2.5rem;
+    min-width: 400px;
+    ;
+}
+
+.connections {
+    background-color: dodgerblue;
+    min-height: 300px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 130px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+    padding-left: 20px;
+    ;
+}
+
+.user-card {
+    background-color: rgba(0, 206, 209, 0.521);
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+
+}
+
+.education-header {
+    background-color: rgb(60, 48, 139);
+    min-height: 40px;
+}
+
+.education-header h3 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.education-body {
+    background-color: rgb(93, 81, 173);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
